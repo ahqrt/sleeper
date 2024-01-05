@@ -15,3 +15,5 @@ pnpm i joi
 nest g app reservations
 ## generate CRUD resources
 nest g resource reservations
+## validation and log
+pnpm i class-validator class-transformer nestjs-pino pino-http pino-pretty
