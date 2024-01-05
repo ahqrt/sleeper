@@ -10,3 +10,8 @@ nest generate module config -p common
 
 # validate env
 pnpm i joi
+
+# create a new microservice
+nest g app reservations
+## generate CRUD resources
+nest g resource reservations
