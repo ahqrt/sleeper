@@ -35,3 +35,7 @@ pnpm i -D @types/passport-jwt
 pnpm i bcryptjs
 pnpm i -D @types/bcryptjs
 
+#### parse cookie
+pnpm i cookie-parser
+pnpm i -D @types/cookie-parser
+
