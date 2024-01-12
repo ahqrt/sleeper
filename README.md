@@ -1,5 +1,5 @@
 # generate library
-nest generate library my-lib
+nest generate library libs
 
 # database and config module
 pnpm i @nestjs/mongoose mongoose
