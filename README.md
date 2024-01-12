@@ -24,4 +24,10 @@ nest g app auth
 ## generate auth module into auth app
 nest g module users
 nest g controller users
+### passport 
+pnpm i @nestjs/passport passport passport-local
+pnpm i -D @types/passport-local
+### jwt
+pnpm i @nestjs/jwt passport-jwt
+pnpm i -D @types/passport-jwt
 
