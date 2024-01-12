@@ -39,3 +39,6 @@ pnpm i -D @types/bcryptjs
 pnpm i cookie-parser
 pnpm i -D @types/cookie-parser
 
+# add microservice to app
+pnpm i @nestjs/microservices
+
