@@ -17,3 +17,11 @@ nest g app reservations
 nest g resource reservations
 ## validation and log
 pnpm i class-validator class-transformer nestjs-pino pino-http pino-pretty
+
+# generate auth app microservice
+nest g app auth
+
+## generate auth module into auth app
+nest g module users
+nest g controller users
+
