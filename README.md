@@ -31,3 +31,7 @@ pnpm i -D @types/passport-local
 pnpm i @nestjs/jwt passport-jwt
 pnpm i -D @types/passport-jwt
 
+#### add bcrypt to encrypt password
+pnpm i bcryptjs
+pnpm i -D @types/bcryptjs
+
