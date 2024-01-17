@@ -21,7 +21,7 @@ export class JwtAuthGuard implements CanActivate {
       return false;
     }
 
-    this.authClient
+    return this.authClient
       .send('authentication', {
         Authentication: jwt,
       })
